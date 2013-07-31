@@ -1,0 +1,19 @@
+{
+  "name": "fei",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "start": "node index",
+    "pretest": "jshint --config .jshintrc ./test/",
+    "test": "node test/*"
+  },
+  "repository": "git@github.com:paulfryzel/fei.git",
+  "author": "Paul Fryzel <paul.fryzel@gmail.com> (paulfryzel.com)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+      "jshint": "2.1.4"
+  }
+}
